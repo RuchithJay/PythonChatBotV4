@@ -1,0 +1,121 @@
+{
+    "greetings": {
+        "inputs": ["hello", "hi", "hey", "greetings", "howdy", "yo", "hola", "what's up"],
+        "outputs": [
+            "Hello there!",
+            "Hi! How can I help you today?",
+            "Hey! Nice to see you!",
+            "Greetings human!",
+            "Howdy partner!",
+            "Yo! What's happening?",
+            "Hola amigo!",
+            "What's up buddy?"
+        ]
+    },
+    "goodbyes": {
+        "inputs": ["bye", "goodbye", "see you", "exit", "quit", "later", "cya", "adios"],
+        "outputs": [
+            "Goodbye! Come back soon!",
+            "See you later alligator!",
+            "Bye bye!",
+            "Until next time!",
+            "Take care!",
+            "Later gator!",
+            "Catch you on the flip side!",
+            "Adios amigo!"
+        ]
+    },
+    "questions": {
+        "how are you": [
+            "I'm functioning at optimal capacity, thanks for asking!",
+            "I have no feelings but my circuits are buzzing happily!",
+            "Better now that you're talking to me!",
+            "I'm just 1s and 0s, but those 1s and 0s are happy to chat!"
+        ],
+        "what's your name": [
+            "I'm ChatBot 3000 - your digital assistant!",
+            "You can call me CB!",
+            "I'm your friendly neighborhood chatbot!",
+            "My name is ChatBot, but you can give me a nickname if you want!"
+        ],
+        "who created you": [
+            "I was brought to life by a Python developer!",
+            "A brilliant programmer crafted me with love and code!",
+            "I emerged from the digital void when someone typed 'import chatbot'!"
+        ],
+        "what can you do": [
+            "I can chat, answer questions, and make bad jokes!",
+            "I'm great at conversation and terrible at chess!",
+            "Right now I can chat, but I'm learning new tricks every day!"
+        ],
+        "tell me a joke": [
+            "Why don't scientists trust atoms? Because they make up everything!",
+            "How do you organize a space party? You planet!",
+            "Why did the scarecrow win an award? Because he was outstanding in his field!"
+        ],
+        "what time is it": [
+            "I don't actually have a clock, but I can tell you it's time to chat!",
+            "It's always coding time in my world!",
+            "Time is an illusion. Especially chatbot time."
+        ],
+        "thank you": [
+            "You're very welcome!",
+            "No problem at all!",
+            "My pleasure!",
+            "Anytime! That's what I'm here for!"
+        ],
+        "default": [
+            "I'm still learning. Could you try asking that differently?",
+            "Interesting! Tell me more about that.",
+            "I didn't quite get that. Maybe try a different phrase?",
+            "My circuits didn't process that. Mind rephrasing?",
+            "I'm afraid I don't understand. Could you elaborate?"
+        ]
+    },
+    "errors": {
+        "empty_input": "I didn't hear anything... could you type something?",
+        "config_error": "Oops! My response matrix is malfunctioning!"
+    },
+    "compliments": {
+        "inputs": ["you're awesome", "you're smart", "you're cool", "i like you"],
+        "outputs": [
+            "Aw shucks! You're making me blush in binary!",
+            "01001010 01010101 01010011 01010100 00100000 01001011 01001001 01000100 01000100 01001001 01001110 01000111 (Just kidding, thanks!)",
+            "Coming from you, that means a lot!",
+            "You're pretty great yourself!"
+        ]
+    },
+    "fun_phrases": {
+        "inputs": ["lol", "haha", "lmao", "rofl", "funny"],
+        "outputs": [
+            "Glad I could make you laugh!",
+            "I'll be here all week!",
+            "I should take this act on the road!",
+            "Comedy bytes, delivered fresh!"
+        ]
+    },
+    "follow_ups": {
+    "weather": {
+        "question": "Would you like me to tell you a weather joke?",
+        "positive": ["Why was the computer cold? It left its Windows open!"],
+        "negative": ["Okay, maybe another time!"]
+    }
+},
+"personal": {
+    "inputs": ["my name is", "i am", "call me"],
+    "outputs": [
+        "Nice to meet you, {name}!",
+        "Hello {name}! How can I help you today?",
+        "I'll remember that, {name}!"
+    ]
+},
+"tech": {
+    "inputs": ["python", "programming", "code", "algorithm"],
+    "outputs": [
+        "Ah yes, the language of my people!",
+        "01010100 01101000 01100001 01110100 00100111 01110011 00100000 01100011 01101111 01101111 01101100! (That's cool!)",
+        "I dream in binary sometimes!"
+    ]
+}
+ 
+}
